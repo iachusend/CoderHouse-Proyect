@@ -1,3 +1,7 @@
+:root {
+    --color-primary: #256EFF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +35,7 @@
 
 nav {
     margin-right: 40px;
+    margin-top: 10px;
 }
 
 nav ul {
@@ -105,7 +110,7 @@ nav a {
 }
 
 .cont__title b {
-    color: #256EFF;
+    color: var(--color-primary);
     position: relative;
     cursor: pointer;
 }
@@ -117,7 +122,7 @@ nav a {
 .cont__title b::after {
     content: "";
     position: absolute;
-    background-color: #256EFF;
+    background-color: var(--color-primary);
     height: 5px;
     width: 0;
     left: 0;
@@ -145,7 +150,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #256EFF;
+    color: var(--color-primary);
     text-decoration: none;
     margin-top: 10px;
     font-size: .9rem;
@@ -211,7 +216,7 @@ nav a {
 .contProd__icon {
     margin: auto;
     font-size: 64px;
-    color: #256EFF;
+    color: var(--color-primary);
     background-color: #fff;
 }
 
@@ -344,7 +349,7 @@ nav a {
 }
 
 .contOf__price span {
-    color: #256EFF;
+    color: var(--color-primary);
     background-color: #fff;
 }
 
@@ -496,7 +501,7 @@ nav a {
     margin-left: 1rem;
 }
 .redes a:hover {
-    color: #256EFF;
+    color: var(--color-primary);
 }
 
 /*         MEDIAQUERIES          */
