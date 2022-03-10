@@ -19,44 +19,10 @@
     opacity: 1;
 }
 
-/* HEADER */
-
-.headerCont {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0 10px 100px;
-    border-bottom: 1px solid rgb(218, 218, 218);
-}
+/* GENERAL */
 
 .main {
     background-color: #e7e7e7;
-}
-
-nav {
-    margin-right: 40px;
-    margin-top: 10px;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav li {
-    list-style: none;
-    margin-right: 30px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #000;
-}
-
-.menuMobile {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-    height: 30px;
 }
 
 
@@ -106,7 +72,6 @@ nav a {
 .cont__title h3 {
     font-size: 2.5rem;
     font-weight: 400;
-    width: 600px;
 }
 
 .cont__title b {
@@ -170,9 +135,7 @@ nav a {
 }
 
 
-
 /*            PRODUCTOS           */
-
 
 
 .contProd {
@@ -693,6 +656,12 @@ nav a {
 
     .cardTitle h4 {
         font-size: 1.1rem;
+    }
+
+    /* FOOTER */
+
+    .redes a {
+        font-size: 16px;
     }
 }
 
