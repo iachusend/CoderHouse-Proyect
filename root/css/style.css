@@ -451,6 +451,7 @@
 
 .derechos p {
     font-weight: 800;
+    margin-top: 15px;
 }
 
 .redes {
@@ -688,5 +689,15 @@
 
      .contProd__com {
         width: 420px;
+    }
+
+    /* FOOTER */
+
+    .derechos p {
+        font-size: .8rem;
+    }
+
+    .ms-3 {
+        font-size: 13px;
     }
 }
