@@ -449,6 +449,10 @@
     align-items: center;
 }
 
+.derechos {
+    margin-top: 10px;
+}
+
 .derechos p {
     font-weight: 800;
     margin-top: 15px;
