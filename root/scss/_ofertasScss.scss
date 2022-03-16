@@ -1,0 +1,88 @@
+.contOf {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px 500px;
+    grid-template-areas: "titulo1 titulo1 titulo2 titulo2"
+                         "cel com tab rel"
+                         ;
+    align-items: center;
+    justify-items: center;
+}
+
+.contOf__of {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.contOf__img {
+    height: 65%;
+    object-fit: cover;
+    overflow: hidden;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+
+.contOf__titleProd {
+    text-align: center;
+    margin-top: 10px;
+
+    & h3 {
+        background-color: #fff;
+    }
+}
+
+.contOf__price {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 15px;
+
+    & span {
+        color: $colorPrimary;
+        background-color: #fff;
+    }
+}
+
+.contOf__desProd {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 15px;
+
+    & span {
+        background-color: #fff;
+    }
+}
+
+.contOf__title1 {
+    grid-area: titulo1;
+}
+
+.contOf__title2 {
+    grid-area: titulo2;
+}
+
+.contOf__cel {
+    grid-area: cel;
+}
+
+.contOf__com {
+    grid-area: com;
+}
+
+.contOf__tab {
+    grid-area: tab;
+}
+
+.contOf__rel {
+    grid-area: rel;
+}

@@ -1,0 +1,71 @@
+/* VARIABLES DEL PROYECTO */
+
+@import '_variables.scss';
+
+/* ARCHIVOS SCSS DEL PROYECTO */   
+
+@import '_indexScss.scss';
+@import '_productosScss.scss';
+@import '_ofertasScss.scss';
+@import '_nosotrosScss.scss';
+@import '_contactoScss.scss';
+@import '_mediaQueriesScss.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* BOOSTRAP */
+
+
+.carousel-indicators {
+    background-color: transparent;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: 1;
+}
+
+
+/* GENERAL */
+
+
+.main {
+    background-color: #e7e7e7;
+}
+
+
+/* FOOTER */
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.derechos {
+    margin-top: 10px;
+}
+
+.derechos p {
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.redes {
+    font-size: 20px;
+}
+
+.redes a {
+    color: #000;
+    transition: all .3s;
+    margin-left: 1rem;
+}
+.redes a:hover {
+    color: $colorPrimary;
+}

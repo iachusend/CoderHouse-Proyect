@@ -1,0 +1,45 @@
+.contNos {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: "div1"
+                         "div2";
+    justify-items: center;
+    align-items: center;
+}
+
+.contNos__point {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    transition: all .3s;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contNos__img {
+    margin-left: 10px;
+
+    & img {
+        height: 300px;
+        width: 500px;
+    }
+}
+
+.contNos__txt {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-left: 15px;
+
+    & h3 {
+        background-color: #fff;
+        margin-bottom: 20px;
+    }
+
+    & p {
+        background-color: #fff;
+    }
+}

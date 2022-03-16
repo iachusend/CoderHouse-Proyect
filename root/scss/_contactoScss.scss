@@ -1,0 +1,25 @@
+.mainCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+}
+
+.mainCont__title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contNames {
+    margin-bottom: 10px;
+}
+
+.ContBtnForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btnForm {
+    width: 80px;
+}

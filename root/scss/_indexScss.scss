@@ -1,0 +1,105 @@
+.main__cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 120px 100px 100px;
+    grid-template-areas: "main main"
+                         "main main"
+                         "main main"
+                         "subMainOne subMainTwo";
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 30px;
+} 
+
+
+.cont__firstCont {
+    grid-area: main;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont__secondCont {
+    grid-area: subMainOne;
+    width: 80%;
+    height: 90%;
+}
+
+.cont__thirdCont {
+    grid-area: subMainTwo; 
+    width: 80%;
+    height: 90%; 
+}
+
+.mc {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.cont__title h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.cont__title b {
+    color: $colorPrimary;
+    position: relative;
+    cursor: pointer;
+
+    &::after{
+        content: "";
+        position: absolute;
+        background-color: $colorPrimary;
+        height: 5px;
+        width: 0;
+        left: 0;
+        bottom: -3px;
+        transition: all .3s;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}
+
+.cont__title a {
+    text-decoration: none;
+}
+
+.cont__img img{
+    height: 300px;
+    width: 100%;
+}
+
+.contRapidAcces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $colorPrimary;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: .9rem;
+
+    &:hover .iconArrow {
+        transform: translateX(5px);
+    }
+}
+
+.iconArrow {
+    margin-left: 2px;
+    transition: all .3s;
+}
+
+.cont__secondCont__title {
+    font-size: 1.2rem;
+}

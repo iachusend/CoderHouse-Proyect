@@ -1,0 +1,232 @@
+@media screen and ( max-width: 1050px ){
+
+    /* INDEX */
+
+    .main__cont {
+        grid-template-areas: "main"
+                             "main"
+                             "main"
+                             "subMainOne" 
+                             "subMainTwo";
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 120px 100px 100px 100px;
+    }
+
+    
+    .cont__img img{
+        height: 180px;
+        width: 180px;
+    }
+
+    .cont__title h3 {
+        font-size: 1.4rem;
+    }
+
+    .cont__firstCont {
+        width: 85%;
+    }
+
+    .cont__secondCont__title {
+        font-size: 1.2rem;
+    }
+
+    .cont__secondCont__title {
+        font-size: 1rem;
+    }
+
+    /* PRODUCTOS */
+
+    .contProd {
+        grid-template-columns:  50% 50%;
+        grid-template-rows: 100px 200px 200px 100px 200px 200px;
+        grid-template-areas: "title title"
+                             "categoria1 categoria2"
+                             "categoria3 categoria4"
+                             "title2 title2"
+                             "compras1 compras1"
+                             "compras2 compras2";
+        row-gap: 30px;
+    }
+    
+    /* OFERTAS */
+
+    .contOf {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 80px 250px 250px ;
+        grid-template-areas: "titulo1 titulo2"
+                             "cel com"
+                             "cel com"
+                             "tab rel"
+                             "tab rel";
+        align-items: center;
+        justify-items: center;
+    }
+
+    .contOf__titleProd h3 {
+        font-size: 1.1rem;
+    }
+
+    .contOf__price span {
+        font-size: .9rem;
+    }
+
+    .contOf__desProd span {
+        font-size: 1rem;
+    }
+
+    /* NOSOTROS */
+
+    .contNos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contNos__point {
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .contNos__img {
+        margin-top: 10px;
+    }
+
+    .contNos__txt {
+        text-align: center;
+        padding: 15px;
+    }
+
+}
+
+@media screen and ( max-width: 900px) {
+
+    /* GENERAL */
+
+    .cont__firstCont {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .cont__title h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .navLinks {
+        display: none;
+    }
+
+    .menuMobile {
+        display: block;
+    }
+    
+}
+
+@media screen and ( max-width: 660px ) {
+
+    .cont__title h3 {
+        font-size: 1rem;
+    }
+
+    .cont__img img{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .cont__secondCont__title {
+        font-size: .9rem;
+    }
+
+    .txtIcon {
+        font-size: .75rem;
+    }
+
+    .contOf {
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 300px 300px 300px 300px;
+        grid-template-areas: "titulo1" 
+                             "cel" 
+                             "com"
+                             "titulo2"
+                             "tab" 
+                             "rel";
+        align-items: center;
+        justify-items: center;
+    }
+
+    .contOf__of {
+        width: 60%;
+    }
+
+    .contOf__titleProd h3 {
+        font-size: 1rem;
+    }
+
+    .contOf__price span {
+        font-size: .8rem;
+    }
+
+    .contOf__desProd span {
+        font-size: .9rem;
+    }
+
+    /* PRODUCTOS */
+
+
+
+    .contProd__com {
+        width: 500px;
+    }
+
+    .contProd__cat h4 {
+        font-size: 1.3rem;
+    }
+
+    .cardTitle h4 {
+        font-size: 1.1rem;
+    }
+
+    /* FOOTER */
+
+    .redes a {
+        font-size: 16px;
+    }
+}
+
+@media screen and ( max-width: 550px ) {
+    .cont__title h3 {
+        font-size: .8rem;
+    }
+
+    .cont__img img{
+        height: 120px;
+        width: 120px;
+    } 
+
+    .cont__secondCont__title {
+        font-size: .8rem;
+    }
+
+    .txtIcon {
+        font-size: .7rem;
+    }
+
+     /* PRODUCTOS */
+
+
+     .contProd__com {
+        width: 420px;
+    }
+
+    /* FOOTER */
+
+    .derechos p {
+        font-size: .8rem;
+    }
+
+    .ms-3 {
+        font-size: 13px;
+    }
+}
