@@ -9,8 +9,7 @@
 }
 
 .contNos__point {
-    width: 90%;
-    height: 90%;
+    @include medidasIndex__firstCont;
     background-color: #fff;
     transition: all .3s;
     cursor: pointer;

@@ -10,8 +10,7 @@
 }
 
 .contOf__of {
-    width: 90%;
-    height: 90%;
+    @include medidasIndex__firstCont;
     background-color: #fff;
     border-radius: 6px;
     cursor: pointer;
