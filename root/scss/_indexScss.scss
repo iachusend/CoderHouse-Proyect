@@ -15,8 +15,7 @@
 
 .cont__firstCont {
     grid-area: main;
-    width: 90%;
-    height: 90%;
+    @include medidasIndex__firstCont;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -24,14 +23,12 @@
 
 .cont__secondCont {
     grid-area: subMainOne;
-    width: 80%;
-    height: 90%;
+    @include medidasIndex__secondCont;
 }
 
 .cont__thirdCont {
     grid-area: subMainTwo; 
-    width: 80%;
-    height: 90%; 
+    @include medidasIndex__secondCont;
 }
 
 .mc {
