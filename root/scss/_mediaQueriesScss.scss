@@ -121,6 +121,16 @@
     .menuMobile {
         display: block;
     }
+
+    .contNos__img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .carrousel {
+        height: 400px;
+    }
     
 }
 

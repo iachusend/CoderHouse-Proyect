@@ -257,7 +257,7 @@
   align-items: center; }
 
 .contNos__img {
-  margin-left: 10px; }
+  margin: 10px; }
   .contNos__img img {
     height: 300px;
     width: 500px; }
@@ -357,7 +357,13 @@
   .navLinks {
     display: none; }
   .menuMobile {
-    display: block; } }
+    display: block; }
+  .contNos__img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  .carrousel {
+    height: 400px; } }
 
 @media screen and (max-width: 660px) {
   .cont__title h3 {
